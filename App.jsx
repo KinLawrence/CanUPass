@@ -390,7 +390,7 @@ function Pricing({ t }) {
                     </p>
                     <div className="flex mt-2 space-x-2 opacity-60">
                         {/* Simulating Payment Logos */}
-                        <div className="h-6 w-10 bg-blue-100 rounded flex items-center justify-center text-[10px] font-bold text-blue-800">Stripe</div>
+                        <div className="h-6 w-10 bg-blue-100 rounded flex items-center justify-center text-[10px] font-bold text-blue-800">Debit/Credit (Stripe)</div>
                         <div className="h-6 w-10 bg-sky-100 rounded flex items-center justify-center text-[10px] font-bold text-sky-600">Alipay</div>
                         <div className="h-6 w-10 bg-green-100 rounded flex items-center justify-center text-[10px] font-bold text-green-700">WeChat</div>
                     </div>
