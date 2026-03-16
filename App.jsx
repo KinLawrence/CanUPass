@@ -28,8 +28,8 @@ const translations = {
         plan_pro: "Pro Plan",
         plan_pro_price: "$29/mo",
         plan_pro_desc: "Unlimited practice with AI analysis.",
-        btn_subscribe: "Subscribe with Stripe",
-        alipay_wechat_supported: "Supports Alipay, WeChat Pay, Visa, Mastercard",
+        btn_subscribe: "Subscribe",
+        alipay_wechat_supported: "Supports Visa, Mastercard",
     },
     'zh-CN': {
         app_title: "LinguistAI 智考",
@@ -52,8 +52,8 @@ const translations = {
         plan_pro: "专业版",
         plan_pro_price: "$29/月",
         plan_pro_desc: "无限次练习，包含完整AI分析。",
-        btn_subscribe: "使用 Stripe 订阅",
-        alipay_wechat_supported: "支持支付宝，微信支付，Visa，万事达卡",
+        btn_subscribe: "订阅",
+        alipay_wechat_supported: "支持Visa，万事达卡",
     },
     'zh-TW': {
         app_title: "LinguistAI 智考",
@@ -76,8 +76,8 @@ const translations = {
         plan_pro: "專業版",
         plan_pro_price: "$29/月",
         plan_pro_desc: "無限次練習，包含完整AI分析。",
-        btn_subscribe: "使用 Stripe 訂閱",
-        alipay_wechat_supported: "支援支付寶，微信支付，Visa，萬事達卡",
+        btn_subscribe: "訂閱",
+        alipay_wechat_supported: "支援Visa，萬事達卡",
     }
 };
 
@@ -390,7 +390,7 @@ function Pricing({ t }) {
                     </p>
                     <div className="flex mt-2 space-x-2 opacity-60">
                         {/* Simulating Payment Logos */}
-                        <div className="h-6 w-10 bg-blue-100 rounded flex items-center justify-center text-[10px] font-bold text-blue-800">Debit/Credit (Stripe)</div>
+                        <div className="h-6 w-10 bg-blue-100 rounded flex items-center justify-center text-[10px] font-bold text-blue-800">Debit/Credit</div>
                         <div className="h-6 w-10 bg-sky-100 rounded flex items-center justify-center text-[10px] font-bold text-sky-600">Alipay</div>
                         <div className="h-6 w-10 bg-green-100 rounded flex items-center justify-center text-[10px] font-bold text-green-700">WeChat</div>
                     </div>
